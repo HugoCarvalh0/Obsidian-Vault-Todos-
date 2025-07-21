@@ -1,0 +1,12 @@
+# Ignorar configurações locais
+.obsidian/workspace.json
+.obsidian/cache
+.obsidian/graph.json
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar backups ou temporários
+*.bak
+*.tmp
