@@ -1,4 +1,4 @@
-#Guias 
+
 # Checklist de Preparação de Notebook - Colaboradores
 
 Os procedimentos descritos abaixo seguem o padrão de preparação de notebooks da empresa, visando segurança e eficiência.
