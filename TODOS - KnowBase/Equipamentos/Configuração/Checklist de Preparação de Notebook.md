@@ -1,11 +1,11 @@
-
+#Guias 
 Os procedimentos descritos abaixo seguem o padrão de preparação de notebooks da empresa, visando segurança e eficiência.
 
 ## 1. Procedimento para Máquinas Windows
 
 ### 1.1. Formatação e Configuração de Senha no Setup
 - [ ] Configurar senha de administrador na BIOS/UEFI
-- [x] Realizar formatação completa do sistema se for equipamento já utilizado
+- [ ] Realizar formatação completa do sistema se for equipamento já utilizado
 
 ### 1.2. Definição e Registro do Nome da Máquina
 - [ ] Conferir número de série na planilha de controle
@@ -14,27 +14,27 @@ Os procedimentos descritos abaixo seguem o padrão de preparação de notebooks 
 - [ ] Alterar o nome da máquina no sistema operacional
 
 ### 1.3. Etiquetagem do Notebook e Carregador
-- [x] Colar etiquetas com o nome da máquina no notebook e carregador
+- [ ] Colar etiquetas com o nome da máquina no notebook e carregador
 
 ### 1.4. Inserção no Domínio
-- [x] Adicionar a máquina no domínio todos.net  
+- [ ] Adicionar a máquina no domínio todos.net  
   Caminho: Configurações > Sistema > Sobre > Domínio ou grupo de trabalho
 ### 1.5. Ingressar no Domínio com Usuário da Rede
-- [x] Fazer login com um usuário de rede para acessar os instaladores
+- [ ] Fazer login com um usuário de rede para acessar os instaladores
 
 ### 1.6. Ativação do BitLocker
-- [x] Mover o notebook da unidade "Computers" para "OU Bitlocker\note-bitlocker"
-- [x] Rodar o comando: `gpupdate /force`
-- [x] Verificar ativação do BitLocker e chave salva no AD
-- [x] Mover o notebook da OU "note-bitlocker" para a unidade "Computadores" do TI
+- [ ] Mover o notebook da unidade "Computers" para "OU Bitlocker\note-bitlocker"
+- [ ] Rodar o comando: `gpupdate /force`
+- [ ] Verificar ativação do BitLocker e chave salva no AD
+- [ ] Mover o notebook da OU "note-bitlocker" para a unidade "Computadores" do TI
 
 ### 1.7. Ativação da Descoberta de Rede
-- [x] Ativar a descoberta de rede:
-    - [x] Configurações > Rede e Internet > Configurações Avançadas de Rede > Configurações de Compartilhamento Avançadas
-    - [x] Ativar descoberta de rede e compartilhamento de arquivos e impressoras
+- [ ] Ativar a descoberta de rede:
+    - [ ] Configurações > Rede e Internet > Configurações Avançadas de Rede > Configurações de Compartilhamento Avançadas
+    - [ ] Ativar descoberta de rede e compartilhamento de arquivos e impressoras
 
 ### 1.8. Desativação da Experiência de Usuário
-- [x] Desativar o serviço "Experiências do Usuário Conectado e Telemetria" via `services.msc`
+- [ ] Desativar o serviço "Experiências do Usuário Conectado e Telemetria" via `services.msc`
 
 ### 1.9. Instalação do Antivírus e Agente de Gerenciamento
 - [ ] Acessar a pasta de instaladores da TI
@@ -43,20 +43,20 @@ Os procedimentos descritos abaixo seguem o padrão de preparação de notebooks 
 - [ ] Verificar comunicação com o servidor
 
 ### 1.10. Instalação da VPN
-- [x] Instalar o OpenVPN com túneis 1193 e 1194
+- [ ] Instalar o OpenVPN com túneis 1193 e 1194
 
 ### 1.11. Configuração da Pasta HOME
-- [x] Copiar a pasta HOME da rede para `C:\HOME`
-- [x] Manter apenas:
-    - [x] Script de mapeamento de unidade de rede
-    - [x] Script de conexão Wi-Fi externa
+- [ ] Copiar a pasta HOME da rede para `C:\HOME`
+- [ ] Manter apenas:
+    - [ ] Script de mapeamento de unidade de rede
+    - [ ] Script de conexão Wi-Fi externa
 
 ### 1.12. Instalação de Aplicativos Padrões
 - [ ] Instalar os seguintes aplicativos:
-    - [x] AnyDesk
-    - [x] Google Chrome
-    - [x] Microsoft Teams (College and Work)
-    - [x] Pacote Office
+    - [ ] AnyDesk
+    - [ ] Google Chrome
+    - [ ] Microsoft Teams (College and Work)
+    - [ ] Pacote Office
 
 ### 1.13. Instalação de Aplicativos para Equipe de Tecnologia (se aplicável)
 - [ ] Instalar:

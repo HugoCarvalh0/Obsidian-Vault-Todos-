@@ -1,4 +1,4 @@
-
+#Guias 
 #### 1- Baixar o arquivo _klnagentmac.sh_. 
 ![[Pasted image 20250717173754.png]]
 
